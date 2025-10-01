@@ -1,5 +1,6 @@
-<img src="Vector-logo.png" alt="Logo" width="100"/>
-
+<p align="center">
+  <img src="Vector-logo.png" alt="Logo" width="200"/>
+</p>
 
 # Vector front-end framework
 
