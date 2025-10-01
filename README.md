@@ -1,4 +1,4 @@
-![My Logo](main/Vector-logo.png)
+![Vector Logo](images/Vector-logo.png)
 
 
 # Vector front-end framework
