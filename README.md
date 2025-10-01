@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Vector-logo.png" alt="Logo" width="200"/>
+</p>
+
 # Vector front-end framework
 
 ⚠️WIP⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
