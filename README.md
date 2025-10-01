@@ -1,4 +1,4 @@
-![Vector Logo](Vector-logo.png)
+<img src="Vector-logo.png" alt="Logo" width="100"/>
 
 
 # Vector front-end framework
