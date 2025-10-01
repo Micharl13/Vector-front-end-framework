@@ -1,4 +1,4 @@
-![Vector Logo](images/Vector-logo.png)
+![Vector Logo](Vector-front-end-framework/Vector-logo.png)
 
 
 # Vector front-end framework
