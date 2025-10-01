@@ -1,20 +1,13 @@
-# Vector front-end framework
+# Vector Demo Site
 
-⚠️WIP⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
+This branch contains the **demo site for Vector**, a lightweight CSS framework for building responsive websites.
 
----
+It is separate from the main branch, which contains the framework source code.  
 
-## Features
-- Minimal, modern CSS utilities
-- Responsive grid and layout classes
-- Buttons, typography, and color utilities
-- Easy to use — just include the CSS file
+The demo site includes examples of:
+- Grid layouts
+- Buttons
+- Typography
+- Color utilities
 
----
-
-## Getting Started
-
-Include Vector in your HTML by linking to the jsDelivr CDN:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
+Visit the live site here: [https://Micharl13.github.io/Vector-front-end-framework/](https://Micharl13.github.io/Vector-front-end-framework/)
