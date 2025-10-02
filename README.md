@@ -3,7 +3,7 @@
 </p>
 
 # Vector front-end framework
-⚠️WIP—In Development Still⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
+⚠️WIP—In Development Still⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use. Contributions welcome!
 
 ### Table of Contents
 - [Features](#features)
