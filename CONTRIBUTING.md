@@ -16,7 +16,7 @@ This project is still young, so contributions of all kinds are welcome.
 2. Clone your fork to your local machine.
 3. Create a new branch for your work.
 4. Make your changes in the `src/` files.
-5. Update `dist/vector.css` with your changes.
+5. Update `dist/css/vector.css` with your changes.
 6. Commit and push your branch.
 7. Open a pull request to `vDev`.
 
