@@ -12,7 +12,7 @@
 - Buttons, typography, and color utilities
 - Easy to use — just add the link in your HTML code
 
-## Getting Started
+## Using Vector
 
 You can get Vector in a couple of ways:
 
