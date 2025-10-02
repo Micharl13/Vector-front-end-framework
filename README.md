@@ -3,15 +3,13 @@
 </p>
 
 # Vector front-end framework
+⚠️WIP—In Development Still⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
 
 ### Table of Contents
 - [Features](#features)
 - [Using Vector](#using-vector)
 - [Contributing](#contributing)
 - [License](#license)
-
-
-⚠️WIP—In Development Still⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
 
 ## Features
 - Minimal, modern CSS utilities
