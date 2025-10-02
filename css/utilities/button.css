@@ -1,1 +1,9 @@
-/* Placeholder for Vector CSS */
+.button#regular {
+color: #FFFFFF;
+
+}
+
+.button#regular:hover {
+color: #000000;
+
+}
