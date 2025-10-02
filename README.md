@@ -18,7 +18,13 @@
 
 ## Getting Started
 
-Include Vector in your HTML by linking to the jsDelivr CDN:
+You can get Vector in a couple of ways:
 
+Link to the jsDelivr CDN:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
+```
+Download:
+
+- [Download Source (ZIP)](https://github.com/Micharl13/Vector-front-end-framework/archive/refs/heads/main.zip)
+- [Download Latest Release](https://github.com/Micharl13/Vector-front-end-framework/releases)
