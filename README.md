@@ -21,7 +21,7 @@
 Include Vector in your HTML by linking to the jsDelivr CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/css/vector.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/css/vector.min.css">
 ```
 ---
 
