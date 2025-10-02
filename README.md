@@ -3,8 +3,13 @@
 </p>
 
 # Vector front-end framework
-
 ⚠️WIP—In Development Still⚠️ A lightweight CSS framework for building responsive websites. Developed by me. Free to use.
+
+### Table of Contents
+- [Features](#features)
+- [Using Vector](#using-vector)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 - Minimal, modern CSS utilities
@@ -24,6 +29,10 @@ Download:
 
 - [Download Source (ZIP)](https://github.com/Micharl13/Vector-front-end-framework/archive/refs/heads/main.zip)
 - [Download Latest Release](https://github.com/Micharl13/Vector-front-end-framework/releases)
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 Code released under the [MIT License](LICENSE).
