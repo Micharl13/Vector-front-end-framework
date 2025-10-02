@@ -26,6 +26,4 @@ Include Vector in your HTML by linking to the jsDelivr CDN:
 ---
 
 ## License
-Code released under the ## License
-
-This project is licensed under the [MIT License](LICENSE).
+Code released under the [MIT License](LICENSE).
