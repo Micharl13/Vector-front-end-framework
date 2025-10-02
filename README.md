@@ -22,3 +22,8 @@ Include Vector in your HTML by linking to the jsDelivr CDN:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
+```
+---
+
+## License
+Code released under the MIT License.
