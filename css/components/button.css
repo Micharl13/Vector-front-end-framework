@@ -1,6 +1,7 @@
 #button.regular {
 color: #FFFFFF;
 padding: ;
+border-radius: 8px;
 }
 
 #button.regular:hover {
