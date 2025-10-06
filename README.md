@@ -39,4 +39,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 Code released under the [MIT License](LICENSE).
 
 ## Credit
-Some base code borrowed from [MDN Web Docs](https://developer.mozilla.org) and [30 Seconds of Code](https://www.30secondsofcode.org).
+Some base code borrowed from [MDN Web Docs](https://developer.mozilla.org), [30 Seconds of Code](https://www.30secondsofcode.org), [W3Schools](https://www.w3schools.com).
