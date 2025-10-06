@@ -10,6 +10,7 @@
 - [Using Vector](#using-vector)
 - [Contributing](#contributing)
 - [License](#license)
+- [Credit](#credit)
 
 ## Features
 - Minimal, modern CSS utilities
