@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Vector-logo.png" alt="Logo" width="200"/>
+  <img src="images/Vector-logo.png" alt="Logo" width="200"/>
 </p>
 
 # <a href="https://github.com/Micharl13/Vector-front-end-framework/tree/vDev?tab=readme-ov-file" size="500px">Go to vDev branch</a>
