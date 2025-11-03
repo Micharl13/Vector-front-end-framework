@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # So we can push with PAT
+          persist-credentials: false  # Use PAT for pushing
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -26,13 +26,23 @@ jobs:
       - name: Install Sass
         run: npm install -g sass
 
-      - name: Compile SCSS to CSS
-        run: sass scss/vector.scss dist/css/vector.css
+      - name: Compile SCSS files
+        run: |
+          # Compile normal CSS
+          sass scss/:dist/css/ --no-source-map
+          # Compile minified CSS
+          sass scss/:dist/css/ --style=compressed --no-source-map --update
+          # Rename minified files to *.min.css
+          for f in dist/css/*.css; do
+            if [[ "$f" != *.min.css ]]; then
+              mv "$f" "${f%.css}.min.css"
+            fi
+          done
 
       - name: Commit compiled CSS
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/css/vector.css
+          git add dist/css/*.css
           git commit -m "Auto-compile SCSS" || echo "No changes to commit"
           git push --force https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git HEAD:vDev
