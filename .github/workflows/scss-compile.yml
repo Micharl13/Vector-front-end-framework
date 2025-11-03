@@ -23,7 +23,7 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS to CSS
-        run: sass src/styles.scss dist/styles.css
+        run: sass scss/vector.scss dist/styles.css
           
       - name: Commit compiled CSS
         run: |
