@@ -32,4 +32,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/css/vector.css
           git commit -m "Auto-compile SCSS" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git HEAD:main
