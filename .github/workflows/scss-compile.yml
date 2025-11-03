@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - vDev
   pull_request:
 
 jobs:
@@ -23,8 +24,8 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS to CSS
-        run: sass scss/vector.scss dist/styles.css
-          
+        run: sass scss/vector.scss dist/vector.css
+
       - name: Commit compiled CSS
         run: |
           git config --global user.name "github-actions[bot]"
