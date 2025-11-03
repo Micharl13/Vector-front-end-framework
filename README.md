@@ -2,16 +2,15 @@
   <img src="images/Vector-logo.png" alt="Logo" width="200"/>
 </p>
 
-# <a href="https://github.com/Micharl13/Vector-front-end-framework/tree/vDev?tab=readme-ov-file" size="500px">Go to vDev branch</a>
-
 # Vector front-end framework
-⚠️WIP—In Development Still⚠️ An open-source, lightweight CSS framework for building responsive websites. Some base code borrowed from [MDN Web Docs](https://developer.mozilla.org). Contributions welcome!
+⚠️WIP—In Development Still⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me. Contributions welcome!
 
 ### Table of Contents
 - [Features](#features)
 - [Using Vector](#using-vector)
 - [Contributing](#contributing)
 - [License](#license)
+- [Credit](#credit)
 
 ## Features
 - Minimal, modern CSS utilities
@@ -38,3 +37,6 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ## License
 Code released under the [MIT License](LICENSE).
+
+## Credit
+Some code borrowed from [MDN Web Docs](https://developer.mozilla.org), [30 Seconds of Code](https://www.30secondsofcode.org), [W3Schools](https://www.w3schools.com).
