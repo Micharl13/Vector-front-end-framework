@@ -5,7 +5,7 @@
 # <a href="https://github.com/Micharl13/Vector-front-end-framework/tree/vDev?tab=readme-ov-file" size="500px">Go to vDev branch</a>
 
 # Vector front-end framework
-⚠️WIP—In Development Still⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me, with some base code borrowed from [MDN Web Docs](https://developer.mozilla.org). Contributions welcome!
+⚠️WIP—In Development Still⚠️ An open-source, lightweight CSS framework for building responsive websites. Some base code borrowed from [MDN Web Docs](https://developer.mozilla.org). Contributions welcome!
 
 ### Table of Contents
 - [Features](#features)
