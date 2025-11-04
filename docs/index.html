@@ -7,31 +7,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Vector</h1>
-    <p>Lightweight CSS framework for building responsive websites.</p>
-    <a href="docs.html" class="btn">Get Started</a>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <h1>Vector</h1>
+      <p>The lightweight CSS framework for modern responsive websites.</p>
+      <a href="docs.html" class="btn-primary">Get Started</a>
+      <a href="#download" class="btn-secondary">Download</a>
+    </div>
   </header>
 
-  <section id="features">
-    <h2>Features</h2>
-    <ul>
-      <li>Responsive design</li>
-      <li>Lightweight & fast</li>
-      <li>Easy to use</li>
-      <li>Customizable</li>
-    </ul>
+  <section id="features" class="features">
+    <div class="grid">
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>Automatically adapts to mobile, tablet, and desktop.</p>
+      </div>
+      <div class="card">
+        <h3>Lightweight</h3>
+        <p>Small filesize for faster load times.</p>
+      </div>
+      <div class="card">
+        <h3>Customizable</h3>
+        <p>Easy to theme and extend to your needs.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="download">
-    <h2>Download</h2>
-    <a href="https://github.com/YourUsername/Vector/releases" class="btn">Download Vector</a>
+  <section id="download" class="download">
+    <h2>Get Vector</h2>
+    <a href="https://github.com/YourUsername/Vector/releases" class="btn-primary">Download Now</a>
   </section>
 
   <footer>
     <p>&copy; 2025 Vector</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
