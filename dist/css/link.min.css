@@ -1,11 +1,1 @@
-#link.regular {
-  color: #0000FF;
-}
-
-#link.regular:hover {
-  color: #000080;
-}
-
-#link.regular:visited {
-  color: #00FF00;
-}
+#link.regular{color:blue}#link.regular:hover{color:navy}#link.regular:visited{color:lime}
