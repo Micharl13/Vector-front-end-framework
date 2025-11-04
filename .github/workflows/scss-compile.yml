@@ -4,7 +4,12 @@ on:
   push:
     paths-ignore:
       - "README.md"
+      - "SECURITY.md"
+      - "CONTRIBUTING.md"
+      - "CODE_OF_CONDUCT.md"
+      - "LICENSE"
       - "docs/**"
+      - "assets/**"
     branches:
       - vDev
   pull_request:
