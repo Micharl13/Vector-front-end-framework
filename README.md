@@ -1,11 +1,18 @@
 <p align="center">
-  <img src="assets/images/vectorlogo.png" alt="Logo" width="200"/>
+  <a href="https://github.com/Micharl13/Vector-front-end-framework">
+    <img src="assets/images/vectorlogo.png" alt="Vector logo" width="200" height="200">
+  </a>
 </p>
 
-# [Go to vDev Branch](https://github.com/Micharl13/Vector-front-end-framework/tree/vDev)
+<h3 align="center">Vector</h3>
 
-# Vector front-end framework
-⚠️WIP—In Development Still⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me. Contributions welcome!
+<p align="center">
+  ⚠️WIP⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me. Contributions welcome!
+  <br>
+  <br>
+  <a href="https://github.com/Micharl13/Vector-front-end-framework">Vector Icons</a>
+
+# [Go to vDev Branch](https://github.com/Micharl13/Vector-front-end-framework/tree/vDev)
 
 ### Table of Contents
 - [Features](#features)
