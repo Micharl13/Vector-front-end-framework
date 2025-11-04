@@ -1,6 +1,14 @@
-// Toggle dark/light theme for demo
-document.querySelectorAll(".vector-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    alert("You clicked a Vector button!");
+const cards = document.querySelectorAll('.card.animate');
+
+function checkCards() {
+  const triggerBottom = window.innerHeight * 0.85;
+  cards.forEach(card => {
+    const cardTop = card.getBoundingClientRect().top;
+    if (cardTop < triggerBottom) {
+      card.classList.add('visible');
+    }
   });
-});
+}
+
+window.addEventListener('scroll', checkCards);
+window.addEventListener('load', checkCards);
