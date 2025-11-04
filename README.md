@@ -30,6 +30,9 @@
 
 ## Status
 
+## Status
+
+<!-- Repo Metrics -->
 <a href="https://github.com/WitnessDevs/Vector/stargazers">
   <img src="https://img.shields.io/github/stars/WitnessDevs/Vector?style=flat-square" alt="GitHub stars">
 </a>
@@ -39,11 +42,34 @@
 <a href="https://github.com/WitnessDevs/Vector/issues">
   <img src="https://img.shields.io/github/issues/WitnessDevs/Vector?style=flat-square" alt="Open issues">
 </a>
+
+<!-- Release / Version -->
+<a href="https://github.com/WitnessDevs/Vector/releases">
+  <img src="https://img.shields.io/github/v/release/WitnessDevs/Vector?style=flat-square" alt="Latest release">
+</a>
+<img src="https://img.shields.io/github/license/WitnessDevs/Vector?style=flat-square" alt="License">
+
+<!-- CI / Build -->
 <a href="https://github.com/WitnessDevs/Vector/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/main.yml?style=flat-square" alt="Build status">
+  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/.github/workflows/scss-compile.yml?style=flat-square" alt="Build status">
 </a>
 <img src="https://img.shields.io/github/last-commit/WitnessDevs/Vector?style=flat-square" alt="Last commit">
-<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.min.css">
+
+<!-- Language / Platform -->
+<img src="https://img.shields.io/github/languages/top/WitnessDevs/Vector?style=flat-square" alt="Top language">
+
+<!-- Contributors -->
+<a href="https://github.com/WitnessDevs/Vector/graphs/contributors">
+  <img src="https://img.shields.io/github/contributors/WitnessDevs/Vector?style=flat-square" alt="Contributors">
+</a>
+
+<!-- npm (placeholder, update name later) -->
+<a href="https://www.npmjs.com/package/vector">
+  <img src="https://img.shields.io/npm/v/vector?style=flat-square" alt="npm version">
+</a>
+
+<!-- Usage -->
+<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.css">
   <img src="https://img.shields.io/badge/CDN-ready-brightgreen?style=flat-square" alt="CDN ready">
 </a>
 <a href="https://WitnessDevs.github.io/Vector/">
