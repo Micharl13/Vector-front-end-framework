@@ -3,9 +3,9 @@
     <img src="assets/images/vectorlogo.png" alt="Vector logo" width="200" height="200">
   </a>
   <br>
-  <a href=""><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a href=""><img src="https://img.shields.io/github/stars/Micharl13/icons?style=social"></a>
-  <a href=""><img src="https://img.shields.io/github/forks/Micharl13/icons?style=social"></a>
+  <a><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+  <a href="https://github.com/Micharl13/icons/stargazers"><img src="https://img.shields.io/github/stars/Micharl13/icons?style=social"></a>
+  <a href="https://github.com/Micharl13/icons/network/members"><img src="https://img.shields.io/github/forks/Micharl13/icons?style=social"></a>
 </p>
 
 <h1 align="center">Vector</h1>
