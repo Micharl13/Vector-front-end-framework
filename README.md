@@ -8,6 +8,9 @@
 
 <p align="center">
   ⚠️WIP⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me. Contributions welcome!
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg">
+  <img src="https://img.shields.io/github/stars/Micharl13/icons?style=social">
+  <img src="https://img.shields.io/github/forks/Micharl13/icons?style=social">
   <br>
   <br>
   <a href="https://github.com/Micharl13/Vector-front-end-framework">Vector Icons</a>
