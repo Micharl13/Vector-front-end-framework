@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Use PAT for pushing
+          persist-credentials: false  # Allows using PAT
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -28,15 +28,13 @@ jobs:
 
       - name: Compile SCSS files
         run: |
-          # Compile normal CSS
-          sass scss/:dist/css/ --no-source-map
-          # Compile minified CSS
-          sass scss/:dist/css/ --style=compressed --no-source-map --update
-          # Rename minified files to *.min.css
-          for f in dist/css/*.css; do
-            if [[ "$f" != *.min.css ]]; then
-              mv "$f" "${f%.css}.min.css"
-            fi
+          mkdir -p dist/css
+          for f in scss/*.scss; do
+            filename=$(basename "$f" .scss)
+            # Normal CSS
+            sass "$f" "dist/css/$filename.css" --no-source-map
+            # Minified CSS
+            sass "$f" "dist/css/$filename.min.css" --style=compressed --no-source-map
           done
 
       - name: Commit compiled CSS
