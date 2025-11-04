@@ -49,7 +49,7 @@
 
 <!-- CI / Build -->
 <a href="https://github.com/WitnessDevs/Vector/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/main.yml?style=flat-square" alt="Build status">
+  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/.github/workflows/scss-compile.yml?style=flat-square" alt="Build status">
 </a>
 <img src="https://img.shields.io/github/last-commit/WitnessDevs/Vector?style=flat-square" alt="Last commit">
 
@@ -67,7 +67,7 @@
 </a>
 
 <!-- Usage -->
-<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.min.css">
+<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.css">
   <img src="https://img.shields.io/badge/CDN-ready-brightgreen?style=flat-square" alt="CDN ready">
 </a>
 <a href="https://WitnessDevs.github.io/Vector/">
