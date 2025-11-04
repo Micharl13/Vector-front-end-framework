@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Vector-logo.png" alt="Logo" width="200"/>
+  <img src="assets/images/vectorlogo.png" alt="Logo" width="200"/>
 </p>
 
 # Vector front-end framework
