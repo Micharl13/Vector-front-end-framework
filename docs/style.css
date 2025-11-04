@@ -96,7 +96,7 @@ a {
 }
 
 .logo {
-  width: 100px;
+  width: 250px;
   height: auto;
   display: block;
   margin: 0 auto 1.5rem;
@@ -180,11 +180,6 @@ a {
 .logo-container {
   text-align: center; /* or flex: left-align if you want top-left */
   margin-bottom: 2rem;
-}
-
-.logo {
-  width: 120px;
-  height: auto;
 }
 
 /* ---- Footer ---- */
