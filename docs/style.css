@@ -151,6 +151,16 @@ a {
   font-size: 1.2rem;
 }
 
+.logo-container {
+  text-align: center; /* or flex: left-align if you want top-left */
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
 /* ---- Footer ---- */
 footer {
   text-align: center;
