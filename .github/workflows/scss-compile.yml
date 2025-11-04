@@ -16,24 +16,38 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # We will use PAT instead
+          persist-credentials: false
 
-      - name: Set up Node.js
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: 20
+          cache: npm
 
       - name: Install Sass
         run: npm install -g sass
 
-      - name: Compile SCSS files
+      - name: Compile SCSS (with partial support)
         run: |
           mkdir -p dist/css
+
+          # Compile only files that are NOT partials (no leading "_")
           for f in scss/*.scss; do
-            filename=$(basename "$f" .scss)
-            sass "$f" "dist/css/$filename.css" --no-source-map
+            filename=$(basename "$f")
+            if [[ "$filename" != _* ]]; then
+              name="${filename%.scss}"
+              sass "$f" "dist/css/$name.css" --no-source-map
+            fi
           done
 
       - name: Commit compiled CSS
         run: |
-          git config --global user.name "github-actions[bo]()
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add dist/css/*.css
+          git commit -m "Auto-compile SCSS" || echo "No changes to commit"
+
+          git pull https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git vDev --rebase
+
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git HEAD:vDev
