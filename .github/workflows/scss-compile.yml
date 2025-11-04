@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Allows using PAT
+          persist-credentials: false  # We will use PAT instead
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -31,14 +31,9 @@ jobs:
           mkdir -p dist/css
           for f in scss/*.scss; do
             filename=$(basename "$f" .scss)
-            # Compile normal CSS only
             sass "$f" "dist/css/$filename.css" --no-source-map
           done
 
       - name: Commit compiled CSS
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/css/*.css
-          git commit -m "Auto-compile SCSS" || echo "No changes to commit"
-          git push --force https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git HEAD:vDev
+          git config --global user.name "github-actions[bo]()
