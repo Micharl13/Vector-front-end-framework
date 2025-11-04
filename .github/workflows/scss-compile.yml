@@ -31,10 +31,8 @@ jobs:
           mkdir -p dist/css
           for f in scss/*.scss; do
             filename=$(basename "$f" .scss)
-            # Normal CSS
+            # Compile normal CSS only
             sass "$f" "dist/css/$filename.css" --no-source-map
-            # Minified CSS
-            sass "$f" "dist/css/$filename.min.css" --style=compressed --no-source-map
           done
 
       - name: Commit compiled CSS
