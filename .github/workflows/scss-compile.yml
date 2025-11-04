@@ -16,13 +16,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: false  # Allows PAT for push
 
       - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: npm
 
       - name: Install Sass
         run: npm install -g sass
@@ -31,7 +30,7 @@ jobs:
         run: |
           mkdir -p dist/css
 
-          # Compile only files that are NOT partials (no leading "_")
+          # Compile only SCSS files that are NOT partials (no leading "_")
           for f in scss/*.scss; do
             filename=$(basename "$f")
             if [[ "$filename" != _* ]]; then
@@ -48,6 +47,7 @@ jobs:
           git add dist/css/*.css
           git commit -m "Auto-compile SCSS" || echo "No changes to commit"
 
+          # Safely pull latest vDev before pushing
           git pull https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git vDev --rebase
 
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Micharl13/Vector-front-end-framework.git HEAD:vDev
