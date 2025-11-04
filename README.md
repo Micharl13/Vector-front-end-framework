@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">Vector</h3>
+<h1 align="center">Vector</h1>
 
 <p align="center">
   ⚠️WIP⚠️ An open-source, lightweight CSS framework for building responsive websites. Developed by me. Contributions welcome!
