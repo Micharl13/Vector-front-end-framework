@@ -11,39 +11,12 @@
   <br>
   <br>
   <a href="https://github.com/Micharl13/Vector-front-end-framework">Vector Icons</a>
-  <br>
-  <br>
-  <a href="https://github.com/WitnessDevs/Vector/stargazers">
-  <img src="https://img.shields.io/github/stars/WitnessDevs/Vector?style=flat-square" alt="GitHub stars">
-</a>
-<a href="https://github.com/WitnessDevs/Vector/network/members">
-  <img src="https://img.shields.io/github/forks/WitnessDevs/Vector?style=flat-square" alt="GitHub forks">
-</a>
-<a href="https://github.com/WitnessDevs/Vector/issues">
-  <img src="https://img.shields.io/github/issues/WitnessDevs/Vector?style=flat-square" alt="Open issues">
-</a>
-<a href="https://github.com/WitnessDevs/Vector/releases">
-  <img src="https://img.shields.io/github/v/release/WitnessDevs/Vector?style=flat-square" alt="Latest release">
-</a>
-<img src="https://img.shields.io/github/license/WitnessDevs/Vector?style=flat-square" alt="License">
-<a href="https://github.com/WitnessDevs/Vector/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/.github/workflows/scss-compile.yml?style=flat-square" alt="Build status">
-</a>
-<img src="https://img.shields.io/github/last-commit/WitnessDevs/Vector?style=flat-square" alt="Last commit">
-<a href="https://github.com/WitnessDevs/Vector/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
-  <img src="https://img.shields.io/github/issues/WitnessDevs/Vector/good%20first%20issue?style=flat-square" alt="Good first issues">
-</a>
-<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.min.css">
-  <img src="https://img.shields.io/badge/CDN-ready-brightgreen?style=flat-square" alt="CDN ready">
-</a>
-<a href="https://WitnessDevs.github.io/Vector/">
-  <img src="https://img.shields.io/badge/Live-Demo-blue?style=flat-square" alt="Live demo">
-</a>
 
 # [Go to vDev Branch](https://github.com/Micharl13/Vector-front-end-framework/tree/vDev)
 
 ### Table of Contents
 - [Features](#features)
+- [Status](#status)
 - [Using Vector](#using-vector)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,6 +27,28 @@
 - Responsive grid and layout classes
 - Buttons, typography, and color utilities
 - Easy to use — just add the link in your HTML code
+
+## Status
+
+<a href="https://github.com/WitnessDevs/Vector/stargazers">
+  <img src="https://img.shields.io/github/stars/WitnessDevs/Vector?style=flat-square" alt="GitHub stars">
+</a>
+<a href="https://github.com/WitnessDevs/Vector/network/members">
+  <img src="https://img.shields.io/github/forks/WitnessDevs/Vector?style=flat-square" alt="GitHub forks">
+</a>
+<a href="https://github.com/WitnessDevs/Vector/issues">
+  <img src="https://img.shields.io/github/issues/WitnessDevs/Vector?style=flat-square" alt="Open issues">
+</a>
+<a href="https://github.com/WitnessDevs/Vector/actions">
+  <img src="https://img.shields.io/github/actions/workflow/status/WitnessDevs/Vector/main.yml?style=flat-square" alt="Build status">
+</a>
+<img src="https://img.shields.io/github/last-commit/WitnessDevs/Vector?style=flat-square" alt="Last commit">
+<a href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@vDev/dist/vector.min.css">
+  <img src="https://img.shields.io/badge/CDN-ready-brightgreen?style=flat-square" alt="CDN ready">
+</a>
+<a href="https://WitnessDevs.github.io/Vector/">
+  <img src="https://img.shields.io/badge/Live-Demo-blue?style=flat-square" alt="Live demo">
+</a>
 
 ## Using Vector
 
