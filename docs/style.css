@@ -95,6 +95,13 @@ a {
   margin: 0.5rem;
 }
 
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
 /* ---- Features Section ---- */
 .features {
   background: linear-gradient(135deg, #fefefe 0%, #f0f8ff 100%);
