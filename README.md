@@ -24,9 +24,7 @@
 - Minimal, modern CSS utilities
 - Responsive grid and layout classes
 - Buttons, typography, and color utilities
-- Easy to use — just add the link in your HTML code
-
-## Status
+- Easy to use — just add the link in your HTML cod
 
 ## Status
 
