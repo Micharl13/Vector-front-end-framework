@@ -30,8 +30,6 @@
 
 ## Status
 
-## Status
-
 <!-- Repo Metrics -->
 <a href="https://github.com/WitnessDevs/Vector/stargazers">
   <img src="https://img.shields.io/github/stars/WitnessDevs/Vector?style=flat-square" alt="GitHub stars">
