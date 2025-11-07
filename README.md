@@ -1,5 +1,3 @@
-# [Go to vDev Branch](https://github.com/Micharl13/Vector-front-end-framework/tree/vDev)
-
 <p align="center">
   <a href="https://github.com/Micharl13/Vector-front-end-framework">
     <img src="assets/images/vectorlogo.png" alt="Vector logo" width="200" height="200">
