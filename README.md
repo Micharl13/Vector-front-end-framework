@@ -73,7 +73,6 @@
 </a>
 
 ## Using Vector
-
 You can get Vector in a couple of ways:
 
 ### NPM
@@ -81,7 +80,7 @@ You can get Vector in a couple of ways:
 
 ### Link to the jsDelivr CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@v0.1.0/dist/css/vector.css">
 ```
 ### Download
 
