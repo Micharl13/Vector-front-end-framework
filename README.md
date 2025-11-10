@@ -76,6 +76,9 @@
 
 You can get Vector in a couple of ways:
 
+### NPM
+(coming with the first release)
+
 ### Link to the jsDelivr CDN:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
