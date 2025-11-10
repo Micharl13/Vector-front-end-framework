@@ -76,7 +76,7 @@
 You can get Vector in a couple of ways:
 
 ### NPM
-(coming with the first release)
+(coming with first release in the near future)
 
 ### Link to the jsDelivr CDN
 ```html
