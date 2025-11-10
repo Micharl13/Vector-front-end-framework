@@ -79,11 +79,11 @@ You can get Vector in a couple of ways:
 ### NPM
 (coming with the first release)
 
-### Link to the jsDelivr CDN:
+### Link to the jsDelivr CDN
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Micharl13/Vector-front-end-framework@main/dist/vectorcss.css">
 ```
-### Download:
+### Download
 
 - [Download Source (ZIP)](https://github.com/Micharl13/Vector-front-end-framework/archive/refs/heads/main.zip)
 - [Download Latest Release](https://github.com/Micharl13/Vector-front-end-framework/releases)
