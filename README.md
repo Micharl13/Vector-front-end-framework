@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Micharl13/Vector-front-end-framework">
-    <img src="assets/images/vectorlogo.png" alt="Vector logo" width="200" height="200">
-  </a>
+  <img src="site/assets/images/vectorlogo.png" alt="Vector logo" width="200" height="200">
 </p>
 
 <h1 align="center">Vector</h1>
@@ -10,7 +8,7 @@
   ⚠️WIP⚠️ An open-source, lightweight CSS framework for building responsive websites. Contributions welcome!
   <br>
   <br>
-  <a href="https://github.com/Micharl13/Vector-front-end-framework">Vector Icons</a>
+  <a href="https://github.com/WitnessDevs/icons">Vector Icons</a>
 
 ### Table of Contents
 - [Features](#features)
@@ -84,8 +82,8 @@ You can get Vector in a couple of ways:
 ```
 ### Download
 
-- [Download Source (ZIP)](https://github.com/Micharl13/Vector-front-end-framework/archive/refs/heads/main.zip)
-- [Download Latest Release](https://github.com/Micharl13/Vector-front-end-framework/releases)
+- [Download Source (ZIP)](https://github.com/WitnessDevs/vector/archive/refs/heads/main.zip)
+- [Download Latest Release](https://github.com/WitnessDevs/vector/releases)
 
 ## Contributing
 
