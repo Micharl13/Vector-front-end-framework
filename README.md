@@ -74,16 +74,16 @@
 You can get Vector in a couple of ways:
 
 ### NPM
-(coming with first release in the near future)
+(COMING IN THE NEAR FUTURE)
 
 ### Link to the jsDelivr CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@v0.1.0/dist/css/vector.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WitnessDevs/Vector@main/dist/css/vector.css">
 ```
 ### Download
 
 - [Download Source (ZIP)](https://github.com/WitnessDevs/vector/archive/refs/heads/main.zip)
-- [Download Latest Release](https://github.com/WitnessDevs/vector/releases)
+- [Download Latest Release (COMING IN THE NEAR FUTURE)](https://github.com/WitnessDevs/vector/releases)
 
 ## Contributing
 
